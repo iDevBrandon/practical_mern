@@ -14,6 +14,8 @@ validation data with express-validator
 
 Apply JWT to handle authentication with a unique token
 
+passport.js - we use passport to handle authentication with Google or Facebook
+
 ## Frontend sturucture
 
 React/Redux
