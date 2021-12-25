@@ -12,6 +12,8 @@ Create a schema + model
 
 validation data with express-validator
 
+Apply JWT to handle authentication with a unique token
+
 ## Frontend sturucture
 
 React/Redux
