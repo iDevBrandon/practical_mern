@@ -10,6 +10,8 @@ set up each routes
 
 Create a schema + model
 
+validation data with express-validator
+
 ## Frontend sturucture
 
 React/Redux
