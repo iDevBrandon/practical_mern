@@ -23,6 +23,10 @@ in users.js, we copied pretty much everything from users.js
 editted to compare for matching email & password.
 If the email and password match, we will return a token
 
+## Profile API Route
+
+1. Create a profile model - query database to CRUD
+
 ## Frontend sturucture
 
 React/Redux
