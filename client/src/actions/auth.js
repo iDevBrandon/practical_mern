@@ -9,6 +9,7 @@ import {
   LOGIN_SUCCESS,
   LOGIN_FAIL,
   LOGOUT,
+  CLEAR_PROFILE,
 } from "./types";
 
 // Load User - if token is in LS, then always send that token to the server
@@ -93,6 +94,9 @@ export const login = (email, password) => async (dispatch) => {
 
 // Logout / Clear profile
 export const logout = () => (dispatch) => {
+  dispatch({
+    type: CLEAR_PROFILE,
+  });
   dispatch({
     type: LOGOUT,
   });
