@@ -15,6 +15,7 @@ import { useEffect } from "react";
 import { loadUser } from "./actions/auth";
 import Dashboard from "./components/dashboard/Dashboard";
 import PrivateRoute from "./components/routing/PrivateRoute";
+import CreateProfile from "./components/profile-forms/CreateProfile";
 
 if (localStorage.token) {
   setAuthToken(localStorage.token);
@@ -38,6 +39,10 @@ function App() {
             <Route
               path="dashboard"
               element={<PrivateRoute component={Dashboard} />}
+            />
+            <Route
+              path="create-profile"
+              element={<PrivateRoute component={CreateProfile} />}
             />
           </Routes>
         </section>
