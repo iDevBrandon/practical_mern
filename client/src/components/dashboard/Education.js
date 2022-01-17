@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Moment from "react-moment";
- 
+
 const Education = ({ education }) => {
   const educations = education.map((edu) => (
     <tr key={edu._id}>
@@ -39,7 +39,7 @@ const Education = ({ education }) => {
 };
 
 Education.propTypes = {
-  experience: PropTypes.array.isRequired,
+  education: PropTypes.array.isRequired,
 };
 
 export default Education;
