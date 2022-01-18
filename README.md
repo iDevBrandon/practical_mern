@@ -6,7 +6,7 @@ MongoDB + Express/Node
 
 config/default.json - we store our default config
 
-set up each routes 
+set up each routes
 
 Create a schema + model
 
@@ -30,3 +30,19 @@ If the email and password match, we will return a token
 ## Frontend sturucture
 
 React/Redux
+
+## Section 10 - Profile Display
+
+55/60
+
+## Section 11 - Posts & Comments
+
+61/68
+
+## Section 12 - Prepare for deployment
+
+69/71
+
+## Section 13 - Fix issues
+
+72/73
