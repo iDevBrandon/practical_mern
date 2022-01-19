@@ -17,4 +17,4 @@ export const getPosts = () => async (dispatch) => {
       payload: { msg: err.response.statusText, status: err.response.status },
     });
   }
-};
+}; 
