@@ -10,7 +10,7 @@
     "server": "nodemon server",
     "client": "cd client && yarn start",
     "dev": "concurrently \"yarn run server\" \"yarn run client\"",
-    "heroku-postbuild": "NODE_ENV=production yarn install --prefix client && yarn run build --prefix client"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false yarn install --prefix client && yarn run build --prefix client"
   },
   "repository": "https://github.com/iDevBrandon/practical_mern.git",
   "author": "Brandon Ha <40842018+iDevBrandon@users.noreply.github.com>",
