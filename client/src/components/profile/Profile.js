@@ -62,7 +62,7 @@ const Profile = ({ getProfileById, profile: { profile, loading }, auth }) => {
                     <ProfileEducation
                       key={education._id}
                       education={education}
-                    ></ProfileEducation>
+                    />
                   ))}
                 </>
               ) : (

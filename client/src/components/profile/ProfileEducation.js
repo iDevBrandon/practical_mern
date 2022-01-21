@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import Moment from "react-moment";
 
 const ProfileEducation = ({
-  experience: { school, degree, fieldofstudy, current, from, to, description },
+  education: { school, degree, fieldofstudy, current, from, to, description },
 }) => {
   return (
     <div>
@@ -23,8 +23,7 @@ const ProfileEducation = ({
 };
 
 ProfileEducation.propTypes = {
-  experience: PropTypes.object.isRequired,
+  education: PropTypes.object.isRequired,
 };
 
 export default ProfileEducation;
- 

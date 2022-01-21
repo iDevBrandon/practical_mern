@@ -3,6 +3,7 @@ import {
   GET_POSTS,
   POST_ERROR,
   UPDATE_LIKES,
+  ADD_POST,
 } from "../actions/types";
 
 const initialState = {
@@ -20,6 +21,13 @@ export default function (state = initialState, action) {
       return {
         ...state,
         posts: payload,
+        loading: false,
+      };
+
+    case ADD_POST:
+      return {
+        ...state,
+        posts: [payload, ...state.posts], // by putting payload at first, the order of posts will be changed
         loading: false,
       };
 
